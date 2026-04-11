@@ -1,0 +1,36 @@
+# EDA_Health
+
+Análisis exploratorio de datos de salud con Python (pandas, geopandas, visualizaciones, mapas, etc.).
+
+## Requisitos
+
+- Python 3.13.12
+- Git
+
+## Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/<tu-usuario>/EDA_Health.git
+cd EDA_Health
+
+# Crear y activar entorno virtual (PowerShell en Windows)
+py -V:Astral/CPython3.13.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# Instalar dependencias
+python -m pip install -r requirements.txt
+```
+
+## Uso
+
+- Abrir el proyecto en VS Code.
+- Seleccionar el intérprete `.venv`.
+- Ejecutar los notebooks de la carpeta `notebooks/` (por crear).
+
+## Estructura de carpetas propuesta
+
+- `data/` – datos brutos (no versionados, añadir a .gitignore si subes datos locales).
+- `notebooks/` – notebooks de análisis.
+- `src/` – código Python reutilizable.
+- `requirements.txt` – dependencias del proyecto.

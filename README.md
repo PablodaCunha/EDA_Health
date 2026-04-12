@@ -1,9 +1,19 @@
 ![green_office](https://github.com/user-attachments/assets/3ee7fda1-87f8-49f7-8684-41d06ce01854)
 # EDA_Health
 
-¿Cómo se relaciona la exposición a zonas verdes con nuestra salud física y mental? 
+¿Cómo se relaciona la exposición a zonas verdes con nuestra salud física y mental?
+Las hipotesis a demostrar son:
+H1: Más acceso universal a zonas verdes equivale a una mejor salud mental
+H2: Mejor calidad del aire (menor PM2.5) equivale a una mejor salud física
 
 En este proyecto se demuestra que la mayor disponibilidad de zonas verdes en tu ciudad contribuye a tu bienestar y salud mental.
+
+Datos utilizados:
+| Fuente                       | Variables clave                                                          | Cobertura                              |
+| ---------------------------- | ------------------------------------------------------------------------ | -------------------------------------- |
+| ESS (European Social Survey) | Salud física (w3hq58), mental (w3hq57), felicidad (w3xq1), regiones NUTS | 10.179 encuestas, 28 regiones europeas |
+| ISGlobal HUDI 2022           | Acceso a zonas verdes, PM2.5 (Air quality), NO2          | 528 ciudades europeas                  |
+| NDVI/Green2022               | NDVI medio, % población sin verde suficiente                             | 516 ciudades                           |
 
 No podemos modificar toda nuestra ciudad, pero quizás sí los entornos en los que trabajamos. Una mejor salud mental nos hace disfrutar más de nuestro trabajo y ser más productivos.
 
@@ -53,3 +63,6 @@ python -m pip install -r requirements.txt
 - `src/` – código Python reutilizable, la memoria tiene todo el código
 - `requirements.txt` – dependencias del proyecto.
 
+
+Pablo da Cunha
+The Bridge Data Science Bootcamp - Madrid, España

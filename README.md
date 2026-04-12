@@ -49,7 +49,7 @@ python -m pip install -r requirements.txt
 
 ## Estructura de carpetas
 
-- `data/` – datos brutos (no versionados, añadir a .gitignore si subes datos locales). En este caso no se ha subido nada pues los datos son muy pesados.
+- `data/` – datos brutos. En este caso no se ha subido nada pues los datos son muy pesados.
 - `src/` – código Python reutilizable, la memoria tiene todo el código
 - `requirements.txt` – dependencias del proyecto.
 

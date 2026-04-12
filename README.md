@@ -1,3 +1,4 @@
+![green_office](https://github.com/user-attachments/assets/3ee7fda1-87f8-49f7-8684-41d06ce01854)
 # EDA_Health
 
 Análisis exploratorio de datos de salud con Python (pandas, geopandas, visualizaciones, mapas, etc.).

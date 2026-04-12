@@ -2,7 +2,7 @@
 # EDA_Health
 
 ¿Cómo se relaciona la exposición a zonas verdes con nuestra salud física y mental?
-Las hipotesis a demostrar son:
+Las hipotesis a demostrar son:  
 H1: Más acceso universal a zonas verdes equivale a una mejor salud mental
 H2: Mejor calidad del aire (menor PM2.5) equivale a una mejor salud física
 
